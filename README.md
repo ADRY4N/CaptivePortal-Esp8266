@@ -8,7 +8,7 @@ Este é um projeto de Captive Portal desonesto que roda na placa de desenvolvime
 ## Funcionalidades
 
 **Painel de Administração:** Permite selecionar qualquer tema de portal cativo.
-* **Temas Customizáveis:** As interfaces web do usuário (temas) são armazenadas no LittleFS. É possível selecionar o tema ativo e fazer upload de novos temas diretamente pela página web.
+* **Temas Customizáveis:** As interfaces web do usuário (temas) são armazenadas no LittleFS. É possível selecionar o tema ativo e fazer upload de novos temas diretamente pela página web, ele se adapta ao tema selecionado enviando os dados cadastrados.
 **Armazenamento Persistente:** As configurações como SSID, senha, canal e tema da página são salvas na EEPROM.
 * **Captura de Dados:** Os dados dos usuários cadastrados são salvos no LittleFS.
 
