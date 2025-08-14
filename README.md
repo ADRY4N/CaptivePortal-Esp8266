@@ -1,13 +1,9 @@
 # CaptivePortal-Esp8266
 
 Este é um projeto de Captive Portal desonesto que roda na placa de desenvolvimento ESP8266, como o NodeMCU. É uma ferramenta de engenharia social que gera uma rede Wi-Fi para incentivar as pessoas a se conectarem a ela e inserir credenciais.
+
+
 ![Image](https://github.com/user-attachments/assets/8ec9bda7-9f34-4565-93e0-b64d2807f552)
-
-
-
-
-
-
 
 ## Funcionalidades
 
