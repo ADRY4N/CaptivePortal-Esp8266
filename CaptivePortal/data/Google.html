@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer login - Contas Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            border: 1px solid #dadce0;
+            border-radius: 8px;
+            padding: 48px 40px 36px;
+            width: 100%;
+            max-width: 360px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .logo {
+            width: 75px;
+            height: auto;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #202124;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #202124;
+            margin-top: 8px;
+            margin-bottom: 24px;
+        }
+
+        .input-group {
+            position: relative;
+            margin-bottom: 16px;
+        }
+
+        .form-input {
+            width: calc(100% - 28px);
+            padding: 13px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border: 2px solid #1a73e8;
+        }
+
+        .link {
+            color: #1a73e8;
+            font-weight: 500;
+            text-decoration: none;
+            font-size: 14px;
+            display: inline-block;
+        }
+
+        .align-left {
+            text-align: left;
+            margin-top: 8px;
+            margin-bottom: 24px;
+        }
+
+        .info-text {
+            color: #5f6368;
+            font-size: 14px;
+            text-align: left;
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 32px;
+        }
+
+        .btn {
+            background-color: #1a73e8;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 24px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        
+        .btn-link {
+            background: none;
+            border: none;
+            color: #1a73e8;
+            font-weight: 500;
+            cursor: pointer;
+            padding: 8px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <img class="logo" src="data:image/png;base64,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" alt="Google Logo">
+        <h1>Login</h1>
+        <p class="subtitle">Use sua Conta Google</p>
+        
+        <!-- CORREÇÃO: Formulário agora aponta para /register -->
+        <form action="/register" method="POST">
+            <div class="input-group">
+                <!-- CORREÇÃO: Adicionado 'name' ao input -->
+                <input type="email" id="email" name="email" class="form-input" required placeholder="E-mail ou telefone">
+            </div>
+
+             <div class="input-group">
+                <!-- CORREÇÃO: Adicionado 'name' ao input -->
+                <input type="password" id="password" name="password" class="form-input" required placeholder="Senha">
+            </div>
+
+            <div class="align-left">
+                <a href="#" class="link">Esqueceu seu e-mail?</a>
+            </div>
+
+            <p class="info-text">Não está no seu computador? Use o modo visitante para fazer login com privacidade. <a href="#" class="link">Saiba mais</a></p>
+
+            <div class="actions">
+                <button type="button" class="btn-link">Criar conta</button>
+                <!-- CORREÇÃO: Botão agora é do tipo 'submit' -->
+                <button type="submit" class="btn">Próxima</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
