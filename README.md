@@ -1,12 +1,13 @@
 # CaptivePortal-Esp8266
 
 Este é um projeto de Captive Portal desonesto que roda na placa de desenvolvimento ESP8266, como o NodeMCU. É uma ferramenta de engenharia social que gera uma rede Wi-Fi para incentivar as pessoas a se conectarem a ela e inserir credenciais.
-
-![Image](https://github.com/user-attachments/assets/774dc5e3-ff41-41f0-8cf7-e1f0d61bf6b5)
 ![Image](https://github.com/user-attachments/assets/8ec9bda7-9f34-4565-93e0-b64d2807f552)
-![Image](https://github.com/user-attachments/assets/67b7b3ff-22d0-4cb5-a7d6-cc6ef91c435b)
 
-<img width="473" height="713" alt="Image" src="https://github.com/user-attachments/assets/76ae4dce-2c96-43f8-a215-95bfa502ed3e" />
+
+
+
+
+
 
 ## Funcionalidades
 
@@ -19,7 +20,7 @@ Este é um projeto de Captive Portal desonesto que roda na placa de desenvolvime
 
 A interface padrão simula um portal de login de um CyberCafé, solicitando nome completo e e-mail para acessar a rede Wi-Fi gratuita.
 
-![Exemplo de Portal](https://raw.githubusercontent.com/seu-usuario/CaptivePortal-Esp8266/main/portal_example.jpg)
+<img width="473" height="713" alt="Image" src="https://github.com/user-attachments/assets/76ae4dce-2c96-43f8-a215-95bfa502ed3e" />
 
 ## Configuração
 
@@ -54,7 +55,8 @@ A interface padrão simula um portal de login de um CyberCafé, solicitando nome
 **Usuário:** admin
 **Senha:** cafe123
 
-![Acesso ADM](https://raw.githubusercontent.com/seu-usuario/CaptivePortal-Esp8266/main/admin_login.jpg)
+![Image](https://github.com/user-attachments/assets/774dc5e3-ff41-41f0-8cf7-e1f0d61bf6b5)
+![Image](https://github.com/user-attachments/assets/67b7b3ff-22d0-4cb5-a7d6-cc6ef91c435b)
 
 ## ISENÇÃO DE RESPONSABILIDADE
 
