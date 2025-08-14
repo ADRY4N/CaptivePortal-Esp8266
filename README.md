@@ -13,6 +13,8 @@ Este é um projeto de Captive Portal desonesto que roda na placa de desenvolvime
 * **Armazenamento Persistente:** As configurações como SSID, senha, canal e tema da página são salvas na EEPROM.
 * **Captura de Dados:** Os dados dos usuários cadastrados são salvos no LittleFS.
 
+  <img width="637" height="872" alt="Image" src="https://github.com/user-attachments/assets/267599b5-5464-43e9-b653-e5890e065155" />
+
 ## Exemplo de Interface
 
 A interface padrão simula um portal de login de um CyberCafé, solicitando nome completo e e-mail para acessar a rede Wi-Fi gratuita.
