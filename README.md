@@ -6,5 +6,5 @@ Com Painel de Administração podendo Selecionar qualquer Tema de portal captive
   - Configurações (Ssid - senha - canal - tema da página de cadastro) salvas na EEPROM.
   - Dados dos usuários cadastrados salvos no LittleFS.
 
-#ISENÇÃO DE RESPONSABILIDADE
+**ISENÇÃO DE RESPONSABILIDADE**
 O código fonte fornecido neste repositório público é apenas para uso educacional. O roubo de credenciais pode ser ilegal dependendo de onde você mora. Não me responsabilizo por quaisquer ações em seu nome. Este código é fornecido sem garantias ou responsabilidades. Seja responsável, ok?
