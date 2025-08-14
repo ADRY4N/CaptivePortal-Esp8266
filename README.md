@@ -51,8 +51,8 @@ A interface padrão simula um portal de login de um CyberCafé, solicitando nome
 **Usuário:** admin
 **Senha:** cafe123
 
-![Image](https://github.com/user-attachments/assets/774dc5e3-ff41-41f0-8cf7-e1f0d61bf6b5)
-![Image](https://github.com/user-attachments/assets/67b7b3ff-22d0-4cb5-a7d6-cc6ef91c435b)
+<img width="430" height="938" alt="Image" src="https://github.com/user-attachments/assets/38fae815-ff69-466e-8412-ab18067c8ed4" />
+<img width="424" height="936" alt="Image" src="https://github.com/user-attachments/assets/927e4fad-1cbc-471b-bab5-5f600423b089" />
 
 ## ISENÇÃO DE RESPONSABILIDADE
 
