@@ -39,8 +39,9 @@ A interface padrão simula um portal de login de um CyberCafé, solicitando nome
 
 ### Rede Wi-Fi Padrão
 
-**SSID:** CyberCafe-Padrao
-**Senha:** visitante 
+**SSID:** `CyberCafe-Padrao`
+
+**Senha:** `visitante `
 
 ### Acesso ao Painel de Administração
 
@@ -48,8 +49,9 @@ A interface padrão simula um portal de login de um CyberCafé, solicitando nome
 2.  Em alguns dispositivos, pode ser necessário selecionar a opção "Usar esta rede como está" para que o portal de login apareça.
 3.  Acesse o painel de administração através do seguinte endereço: `http://172.217.28.1/admin`.
 
-**Usuário:** admin
-**Senha:** cafe123
+**Usuário:**  `admin`
+
+**Senha:**    `cafe123`
 
 <img width="430" height="938" alt="Image" src="https://github.com/user-attachments/assets/38fae815-ff69-466e-8412-ab18067c8ed4" />
 <img width="424" height="936" alt="Image" src="https://github.com/user-attachments/assets/927e4fad-1cbc-471b-bab5-5f600423b089" />
